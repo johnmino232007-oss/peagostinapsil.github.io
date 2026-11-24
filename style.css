@@ -1,0 +1,81 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Baskerville, Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: skyblue;
+  color: #800000;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+}
+header p { color: #ffe9d6; margin: 6px 0 0; }
+
+nav {
+  background-color: navy;
+  text-align: center;
+  padding: 5px;
+}
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 12px 16px;
+}
+
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.item { text-align: center;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 12px 0;
+}
+.item h3 { margin: 0 0 6px; }
+.item p { margin: 4px 0; }
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#contact a.btn {
+  display: block;
+  padding: 14px;
+  margin: 10px 0;
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #222222;
+  color: white;
+  padding: 15px;
+}
